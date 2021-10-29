@@ -39,6 +39,8 @@ $produk2 = new Produk("Teh Gelas", "Minuman", "14000", "15");
 
 $produk3 = new Produk("Sedap Goreng", "Makanan", "4000", "10");
 
+$produk4 = new Produk("Seperior", "MIE","5000","5");
+
 echo "<hr>";
 echo "Toko Abdul";
 echo "<br>";

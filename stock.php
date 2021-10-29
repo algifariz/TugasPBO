@@ -1,5 +1,5 @@
 <?php
-
+//class produk
 class Produk
 {
     public $nama_barang = "Nama barang";

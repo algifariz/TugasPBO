@@ -43,6 +43,8 @@ $produk4 = new Produk("Seperior", "MIE","5000","5");
 
 $produk5 = new produk("Lays", "SNACK", "6000","15");
 
+$produk6 = new Produk("Gudang Garam", "Rokok", "20000", 10);
+
 echo "<hr>";
 echo "Toko Abdul";
 echo "<br>";
@@ -95,3 +97,12 @@ echo "<br>";
 echo "Harga : " . $produk5->getHarga();
 echo "<br>";
 echo "Stock : " . $produk5->getStock();
+echo "<br>";
+echo "Nama Barang : " . $produk6->getBarang();
+echo "<br>";
+echo "Jenis : " . $produk6->getJenis();
+echo "<br>";
+echo "Harga : " . $produk6->getHarga();
+echo "<br>";
+echo "Stock : " . $produk6->getStock();
+echo "<br>";

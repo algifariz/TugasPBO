@@ -77,7 +77,7 @@ echo "<br>";
 echo "Stock : " . $produk1->getStock();
 echo "2";
 echo "<br>";
-echo "Nama Barang : " . $produk1->getBarang();
+echo "Nama Barang : " . $produk4->getBarang();
 echo "<br>";
 echo "Jenis : " . $produk4->getJenis();
 echo "<br>";

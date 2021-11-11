@@ -4,8 +4,9 @@ class manusia{
 $private $nama ;
 $private $warna ;
 
-fublic function __construct(){
-  
+fublic function __construct($nama, $warna){
+  $this->nama = $nama;
+ $this->warna = $warna;
 
 }
 

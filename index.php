@@ -1,6 +1,6 @@
 <?php
  
-celas 
+class 
 $private $ ;
 $private $ ;
 

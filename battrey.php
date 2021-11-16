@@ -28,3 +28,5 @@ class hitung extends battery {
 $hasil = new hitung (36,36);
 
 echo "battery percentase hasil adalah=".$hasil->hitung_battery()."<hr>"
+
+?>

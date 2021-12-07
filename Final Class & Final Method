@@ -11,5 +11,5 @@
        $this->merk = $merk;
        $this->Performa= $Performa;
     }
-    
+ }
     ?>

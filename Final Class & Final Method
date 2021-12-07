@@ -1,0 +1,40 @@
+<?php
+ class hp
+{
+    public $pemilik = "algifari";
+    public $merk = "Samsung Galaxy A20";
+    public $Performa = "Exynos 7884";
+
+    public function __construct()
+    {
+        echo "Seorang ". $this->pemilik ."Merek". $this->merek. "dengan Performa pabrikan Samsung". $this->Performa;
+    }
+
+    public function detail_hp()
+    {
+        return "Hp ini Bermerek $this->merk dengan Performa $this->Performa Yang di punyai $this->pemilik saat ini";
+    }
+    }
+    
+final class hp_baru extends hp
+{
+    public function detail_hp(){
+      return parent::detail_hp();
+}
+        
+    public function __destruct()
+    {
+        echo "Hp saya merek $this->merek dan Mempunyai $this->Performa";
+    }
+}
+
+
+// buat objek dari class laptop (instansiasi)
+$hp_algifari = new hp();
+
+echo "<br />";
+echo "<hr>";
+echo $hp_algifari->detail_hp();
+
+
+?>

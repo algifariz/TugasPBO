@@ -1,0 +1,15 @@
+<?php
+  function checkbatraihp($persentase) {
+    if($persentase < 15) {
+      throw new Exception('Bartai lemah segera cas hp anda');
+    }
+    return true;
+  }
+  try {
+    checkbatraihp(10);
+    echo 'batrai masih full ';
+  } catch(Exception $e) {
+    
+    echo 'Message : ' .$e->getMessage();
+  }
+?>
